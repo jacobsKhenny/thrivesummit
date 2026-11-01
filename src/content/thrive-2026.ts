@@ -9,7 +9,7 @@ export const EVENT_2026 = {
 } as const;
 
 /** Contact listed in the official sponsorship brochure. */
-export const CONTACT_EMAIL = "aanu@penpixeldp.com";
+export const CONTACT_EMAIL = "hello@thrivesummit.co.uk";
 
 /** Indicative only until the organiser confirms the final schedule. */
 export const PROGRAMME_2026 = [
