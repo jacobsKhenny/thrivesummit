@@ -10,7 +10,7 @@ import { EVENT } from "@/content/thrive";
 export const SITE_NAV = [
   { label: "Home", to: "/" }, { label: "About", to: "/about" },
   { label: "Programme", to: "/programme" }, { label: "Speakers", to: "/speakers" },
-  { label: "Sponsors", to: "/sponsors" }, { label: "Venue & Travel", to: "/venue-travel" },
+  { label: "Sponsors", to: "/sponsors" }, { label: "Partner With Us", to: "/partner-with-us" }, { label: "Venue & Travel", to: "/venue-travel" },
   { label: "Contact Us", to: "/contact" },
 ] as const;
 

@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as Experience2025RouteImport } from './routes/experience-2025'
+import { Route as PartnerWithUsRouteImport } from './routes/partner-with-us'
 import { Route as ProgrammeRouteImport } from './routes/programme'
 import { Route as Resources2025RouteImport } from './routes/resources-2025'
 import { Route as SpeakersRouteImport } from './routes/speakers'
@@ -38,6 +39,11 @@ const ContactRoute = ContactRouteImport.update({
 const Experience2025Route = Experience2025RouteImport.update({
   id: '/experience-2025',
   path: '/experience-2025',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PartnerWithUsRoute = PartnerWithUsRouteImport.update({
+  id: '/partner-with-us',
+  path: '/partner-with-us',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProgrammeRoute = ProgrammeRouteImport.update({
@@ -76,6 +82,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
   '/experience-2025': typeof Experience2025Route
+  '/partner-with-us': typeof PartnerWithUsRoute
   '/programme': typeof ProgrammeRoute
   '/resources-2025': typeof Resources2025Route
   '/speakers': typeof SpeakersRoute
@@ -88,6 +95,7 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
   '/experience-2025': typeof Experience2025Route
+  '/partner-with-us': typeof PartnerWithUsRoute
   '/programme': typeof ProgrammeRoute
   '/resources-2025': typeof Resources2025Route
   '/speakers': typeof SpeakersRoute
@@ -101,6 +109,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
   '/experience-2025': typeof Experience2025Route
+  '/partner-with-us': typeof PartnerWithUsRoute
   '/programme': typeof ProgrammeRoute
   '/resources-2025': typeof Resources2025Route
   '/speakers': typeof SpeakersRoute
@@ -115,6 +124,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/contact'
     | '/experience-2025'
+    | '/partner-with-us'
     | '/programme'
     | '/resources-2025'
     | '/speakers'
@@ -127,6 +137,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/contact'
     | '/experience-2025'
+    | '/partner-with-us'
     | '/programme'
     | '/resources-2025'
     | '/speakers'
@@ -139,6 +150,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/contact'
     | '/experience-2025'
+    | '/partner-with-us'
     | '/programme'
     | '/resources-2025'
     | '/speakers'
@@ -152,6 +164,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
   Experience2025Route: typeof Experience2025Route
+  PartnerWithUsRoute: typeof PartnerWithUsRoute
   ProgrammeRoute: typeof ProgrammeRoute
   Resources2025Route: typeof Resources2025Route
   SpeakersRoute: typeof SpeakersRoute
@@ -188,6 +201,13 @@ declare module '@tanstack/react-router' {
       path: '/experience-2025'
       fullPath: '/experience-2025'
       preLoaderRoute: typeof Experience2025RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/partner-with-us': {
+      id: '/partner-with-us'
+      path: '/partner-with-us'
+      fullPath: '/partner-with-us'
+      preLoaderRoute: typeof PartnerWithUsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/programme': {
@@ -240,6 +260,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
   Experience2025Route: Experience2025Route,
+  PartnerWithUsRoute: PartnerWithUsRoute,
   ProgrammeRoute: ProgrammeRoute,
   Resources2025Route: Resources2025Route,
   SpeakersRoute: SpeakersRoute,

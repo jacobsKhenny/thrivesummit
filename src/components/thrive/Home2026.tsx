@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { HOMEPAGE_MEMORIES } from "@/content/thrive-media";
 import { EVENT_2026, PROGRAMME_2026 } from "@/content/thrive-2026";
 import { EVENT, PILLARS } from "@/content/thrive";
+import { SPEAKERS_2026 } from "@/content/speakers-2026";
 import { RegisterButton } from "./RegisterButton";
 import { Montage } from "./Montage";
 export { SiteHeader as Header2026, SiteFooter as Footer2026 } from "./SiteChrome";
@@ -37,7 +38,11 @@ export function WhoFor() {
 }
 
 export function Speakers2026() {
- return <section className="bg-background py-16 sm:py-24"><div className="section-x flex flex-col justify-between gap-8 md:flex-row md:items-end"><div><p className="eyebrow text-muted-foreground">The voices of the next chapter</p><h2 className="mt-5 max-w-3xl text-4xl sm:text-5xl">2026 speakers will be<br /><span className="text-primary">announced soon.</span></h2></div><Button asChild variant="eventOutline" size="event" className="w-fit"><Link to="/speakers">Speakers 2026 <ArrowRight aria-hidden /></Link></Button></div></section>;
+  return <section className="bg-background py-16 sm:py-24"><div className="section-x"><p className="eyebrow text-muted-foreground">Thrive Summit UK 2026</p><h2 className="mt-5 max-w-4xl text-4xl sm:text-5xl">Meet the Voices Shaping the Future</h2><p className="mt-5 max-w-3xl text-lg leading-relaxed text-muted-foreground">Meet the business leaders, industry experts and thought leaders bringing their experience, ideas and perspectives to Thrive Summit.</p><div className="mt-10 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">{SPEAKERS_2026.map(speaker => <Link key={speaker.id} to="/speakers" className="group block border-t-2 border-primary pt-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"><img src={speaker.image} alt={speaker.name} width="1200" height="1500" loading="lazy" decoding="async" className="aspect-[4/5] w-full bg-secondary object-cover object-top" /><h3 className="mt-5 text-2xl group-hover:text-primary">{speaker.name}</h3><p className="mt-2 text-sm leading-relaxed text-muted-foreground">{speaker.role}</p><span className="mt-4 inline-flex items-center gap-2 text-sm font-bold">View speaker <ArrowRight aria-hidden className="h-4 w-4" /></span></Link>)}</div><Button asChild variant="eventOutline" size="event" className="mt-9"><Link to="/speakers">Explore All Speakers <ArrowRight aria-hidden /></Link></Button></div></section>;
+}
+
+export function PartnerInvitation2026() {
+ return <section className="bg-primary py-16 text-primary-foreground sm:py-20"><div className="section-x"><p className="eyebrow">Partnerships and volunteering</p><h2 className="mt-5 max-w-3xl text-4xl sm:text-5xl">Let's Make Thrive Happen Together.</h2><p className="mt-5 max-w-3xl text-lg leading-relaxed">Whether you're an organisation looking to partner with us or an individual ready to contribute, there's an opportunity to be part of the experience.</p><div className="mt-9 grid gap-8 sm:grid-cols-2"><div className="border-t border-primary-foreground/30 pt-5"><h3 className="text-2xl">Partner With Us</h3><Button asChild variant="eventOutline" size="event" className="mt-5"><Link to="/partner-with-us" hash="#partnership">Explore Partnership Opportunities <ArrowRight aria-hidden /></Link></Button></div><div className="border-t border-primary-foreground/30 pt-5"><h3 className="text-2xl">Volunteer With Us</h3><Button asChild variant="eventOutline" size="event" className="mt-5"><Link to="/partner-with-us" hash="#volunteer">Become a Volunteer <ArrowRight aria-hidden /></Link></Button></div></div></div></section>;
 }
 
 export function Programme2026() {

@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
   Header2026, Hero2026, Intro, WhyAttend, WhoFor, Speakers2026,
-  Programme2026, Sponsors2026, Experience2025Teaser, Venue2026, FinalCTA2026, Footer2026,
+  Programme2026, Sponsors2026, PartnerInvitation2026, Experience2025Teaser, Venue2026, FinalCTA2026, Footer2026,
 } from "@/components/thrive/Home2026";
 import { Countdown } from "@/components/thrive/Countdown";
 
@@ -36,6 +36,7 @@ function Home2026() {
         <Speakers2026 />
         <Programme2026 />
         <Sponsors2026 />
+        <PartnerInvitation2026 />
         <Experience2025Teaser />
         <Venue2026 />
         <FinalCTA2026 />
