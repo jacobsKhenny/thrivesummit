@@ -1,5 +1,5 @@
 # Website correction
-- [ ] Add the four supplied 2026 speaker portraits and biographies, partner page, volunteer form link, and homepage invitations.
+- [ ] Add four supplied 2026 speaker portraits and biographies, partner page, volunteer form link, and homepage invitations, using the newly uploaded standalone portraits instead of flyer crops.
 - [ ] Embed the real sponsorship and contact forms, add Contact Us, and verify route-specific loading and mobile sizing.
 - [ ] Group Thrive 2025 and 2025 Resources under Experience Thrive in main and footer navigation.
 - [x] Update homepage montage to viewport autoplay with pause and sound controls; remove the poorly framed introduction photo.
