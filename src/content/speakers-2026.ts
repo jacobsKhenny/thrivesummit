@@ -1,9 +1,37 @@
+import aanuoluwapoPortrait from "@/assets/thrive/speakers-2026/aanuoluwapo-host.webp.asset.json";
+import rukayatPortrait from "@/assets/thrive/speakers-2026/rukayat-alabi.webp.asset.json";
 import funmiPortrait from "@/assets/thrive/speakers-2026/funmi-obembe.webp.asset.json";
 import joannaPortrait from "@/assets/thrive/speakers-2026/joanna-streames.webp.asset.json";
 import morinPortrait from "@/assets/thrive/speakers-2026/morin-osunmakinde.webp.asset.json";
 import mohamedPortrait from "@/assets/thrive/speakers-2026/mohamed-shaban.webp.asset.json";
 
 export const SPEAKERS_2026 = [
+  {
+    id: "aanuoluwapo-clement-david-olawade",
+    name: "Aanuoluwapo (Aanu) Clement David-Olawade",
+    role: "Host and convenor of Thrive Summit UK 2026",
+    image: aanuoluwapoPortrait.url,
+    bio: [
+      "Aanuoluwapo Clement David-Olawade is the founder of PenPixel, a published author and publisher, LinkedIn strategist for business growth, NHS professional, and convenor of Thrive Summit.",
+      "Thrive brings together her commitment to knowledge, connection and creating spaces for people to grow.",
+    ],
+  },
+  {
+    id: "rukayat-alabi",
+    name: "Rukayat Alabi",
+    role: "Award-winning entrepreneur, business leader, author, and international speaker",
+    image: rukayatPortrait.url,
+    bio: [
+      "Rukayat Alabi is a multi-award-winning entrepreneur, business leader, author, and international speaker passionate about empowering individuals and businesses to achieve global relevance.",
+      "She is the Founder and CEO of RKY Group, a growing ecosystem of businesses and initiatives spanning technology education, workforce development, recruitment, entrepreneurship, and business acceleration. Through RKY Careers and her wider initiatives, she has impacted over 10,000 professionals and entrepreneurs, helping individuals develop in-demand skills, navigate career transitions, and access opportunities in competitive global markets.",
+      "With over 13 years of experience across banking and technology, Rukayat brings a unique perspective to conversations around career transformation, entrepreneurship, innovation, and the future of work.",
+      "Rukayat has received over 10 awards in the UK in recognition of her contributions to entrepreneurship, innovation, and community empowerment. A member of the Forbes Coaches Council, her work and impact have also been recognised and featured on national television and in leading newspapers across the UK and Nigeria.",
+      "She is also the visionary behind Limitless Without Borders, an international conference and awards platform connecting ambitious professionals, entrepreneurs, innovators, and industry leaders. It has convened over 5,000 participants across its London and Lagos events, strengthening connections between African talent, businesses, and global opportunities.",
+      "She is the author of Limitless & Thriving and Before You Quit, a book focused on intentional career transitions, entrepreneurship, and building a pathway towards ownership.",
+      "Beyond her businesses, Rukayat is committed to mentoring the next generation of African professionals and entrepreneurs, championing economic empowerment, and creating platforms that enable individuals to move beyond limitations and compete on a global stage.",
+      "Her work reflects a central belief: talent and ambition should never be limited by geography, background, or access to opportunity.",
+    ],
+  },
   {
     id: "dr-funmi-obembe",
     name: "Dr Funmi Obembe",
