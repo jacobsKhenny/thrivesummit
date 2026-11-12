@@ -8,7 +8,7 @@ import mohamedPortrait from "@/assets/thrive/speakers-2026/mohamed-shaban.webp.a
 export const SPEAKERS_2026 = [
   {
     id: "aanuoluwapo-clement-david-olawade",
-    name: "Aanuoluwapo (Aanu) Clement David-Olawade",
+    name: "Aanuoluwapo Clement David-Olawade",
     role: "Host and convenor of Thrive Summit UK 2026",
     image: aanuoluwapoPortrait.url,
     bio: [

@@ -56,7 +56,7 @@ export const HERO_MONTAGE_MP4 = { mobile: heroMobileMp4.url, desktop: heroDeskto
 
 export const SPEAKERS_2025 = [
   {
-    name: "Aanu Clement David-Olawade",
+    name: "Aanuoluwapo Clement David-Olawade",
     role: "CEO, PenPixel Digital Press",
     image: aanuPortrait.url,
     badge: "Host",

@@ -1,6 +1,6 @@
 # Website correction
 - [x] Earlier speaker and partner additions were completed by the organiser.
-- [x] Add Aanuoluwapo as host first and Rukayat second in the homepage and Speakers page speaker lists, using confirmed supplied assets and content.
+- [x] Keep the host first and Rukayat second in homepage and Speakers page lists, using the confirmed host name Aanuoluwapo Clement David-Olawade.
 - [ ] Embed the real sponsorship and contact forms, add Contact Us, and verify route-specific loading and mobile sizing.
 - [ ] Group Thrive 2025 and 2025 Resources under Experience Thrive in main and footer navigation.
 - [x] Update homepage montage to viewport autoplay with pause and sound controls; remove the poorly framed introduction photo.
