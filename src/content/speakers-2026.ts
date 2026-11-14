@@ -4,6 +4,9 @@ import funmiPortrait from "@/assets/thrive/speakers-2026/funmi-obembe.webp.asset
 import joannaPortrait from "@/assets/thrive/speakers-2026/joanna-streames.webp.asset.json";
 import morinPortrait from "@/assets/thrive/speakers-2026/morin-osunmakinde.webp.asset.json";
 import mohamedPortrait from "@/assets/thrive/speakers-2026/mohamed-shaban.webp.asset.json";
+import stevePortrait from "@/assets/thrive/speakers-2026/steve-tempest.webp.asset.json";
+import folaPortrait from "@/assets/thrive/speakers-2026/fola-kongi.webp.asset.json";
+import sholzPortrait from "@/assets/thrive/speakers-2026/solafunmi-sholz-laelle.webp.asset.json";
 
 export const SPEAKERS_2026 = [
   {
@@ -78,6 +81,41 @@ export const SPEAKERS_2026 = [
       "Mohamed is a professor, board director and finance specialist with over three decades of experience in banking, capital markets, credit ratings and corporate finance. His expertise covers corporate finance, financial analysis and investment, banking regulation and governance, and FinTech and access to finance, with experience across the UK, Europe, the Middle East and Asia. He serves as Professor of Finance and FinTech and Associate Dean for Enterprise at the University of Leicester School of Business, and Founder and Vice President of the International Finance and Banking Society (IFABS).",
       "His career began in Egypt with senior finance appointments, culminating in his role as Director of Corporate Finance at TMG Holding. There, he directed feasibility studies for major developments, including Four Seasons properties in Cairo, Alexandria and Sharm El Sheikh, and the Kempinski Nile Hotel. His academic career includes appointments at leading UK universities, including Leicester and Sheffield, as well as several senior leadership positions. He holds board roles at several companies and previously served on the board of Dagong Credit Rating Europe, an ESMA-regulated financial services firm.",
       "As an educator and speaker, Mohamed has provided executive training for bankers in Indonesia, China and the Middle East, and regularly delivers keynote addresses at international conferences and central bank forums. His research on banking, regulation and access to finance appears in leading academic journals and includes collaborations with the IMF, Banco Central do Brasil, CAIXA and UNIDO. He brings industry experience to his academic leadership, with a commitment to accessible finance and sound governance.",
+    ],
+  },
+  {
+    id: "steve-tempest",
+    name: "Steve Tempest",
+    role: "Director, Mortgage Advice Bureau Hinckley",
+    image: stevePortrait.url,
+    bio: [
+      "Steve Tempest is Director and Business Principal of Mortgage Advice Bureau Hinckley, leading a team of five advisers and two full-time administrators providing mortgage and protection advice across Leicestershire and the Midlands.",
+      "Having started his business as a sole trader in 2007, Steve established a limited company and moved into his own premises in 2015. As the team grew, the business relocated to larger premises in 2024. In 2018, he won the ‘Best Broker, Buy to Let’ award at The British Mortgage Awards.",
+      "Joining the ‘Built from Scratch’ panel at Thrive Summit 2026, Steve brings first-hand experience of growing a business from a solo venture into an established team, navigating the challenges and opportunities along the way.",
+    ],
+  },
+  {
+    id: "fola-kongi",
+    name: "Fola Kongi",
+    role: "Chartered Accountant, Property Investor and Coach, Founder of Fikraft Property",
+    image: folaPortrait.url,
+    bio: [
+      "Fola Kongi is a UK Chartered Accountant, property coach, investor and global speaker with nearly two decades of experience in corporate finance and senior leadership.",
+      "She is the Founder of Fikraft Property, where she empowers aspiring investors, busy professionals and families to move beyond salary dependence towards asset ownership through practical, intentional property investment strategies focused on financial stability and generational wealth.",
+      "Combining financial expertise with hands-on property experience, Fola uses her signature FIKRAFT Formula to help individuals understand their numbers, develop the right mindset and make informed investment decisions with clarity and confidence.",
+      "A passionate advocate for financial literacy and empowerment, Fola speaks on wealth creation, property, mindset and generational legacy, inspiring audiences to look beyond their current circumstances, take purposeful action and build sustainable wealth for the future.",
+    ],
+  },
+  {
+    id: "solafunmi-sholz-laelle",
+    name: "Solafunmi Sholz Laelle",
+    role: "Founder, WealthMotley",
+    image: sholzPortrait.url,
+    bio: [
+      "Solafunmi Sholz Laelle is a dedicated investor and personal finance expert with over 17 years of experience at the intersection of media, technology, and entertainment. She is passionate about transforming how individuals perceive and manage their finances, believing that everyone has the potential to achieve substantial wealth.",
+      "As the founder of WealthMotley, Sholz simplifies complex financial concepts, focusing on savings, stock market investments, REITs and business acquisition. Her mission is to educate rather than advise, empowering individuals to take control of their financial futures. Through her platform, she has coached thousands to begin their investment journeys, emphasising that with the right mindset and tools, financial prosperity is within reach.",
+      "Beyond WealthMotley, Sholz has held key leadership roles, including serving as Head of YouTube for Africa, where she developed growth strategies for top content creators and media organisations. Currently, she leads Circo Africa, an innovative video creation app designed for African creators, further showcasing her commitment to empowering others through technology and media.",
+      "When she's not investing, Sholz works at the nexus of tech, media, and entertainment, leveraging her diverse expertise to inspire and educate others. Her passion for financial literacy and wealth creation has made her a trusted figure in the personal finance community, guiding countless individuals toward achieving their financial goals.",
     ],
   },
 ] as const;
