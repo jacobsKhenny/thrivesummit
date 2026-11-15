@@ -11,12 +11,16 @@ import sholzPortrait from "@/assets/thrive/speakers-2026/solafunmi-sholz-laelle.
 export const SPEAKERS_2026 = [
   {
     id: "aanuoluwapo-clement-david-olawade",
-    name: "Aanuoluwapo Clement David-Olawade",
+    name: "Aanu Clement David-Olawade",
     role: "Host and convenor of Thrive Summit UK 2026",
     image: aanuoluwapoPortrait.url,
     bio: [
-      "Aanuoluwapo Clement David-Olawade is the founder of PenPixel, a published author and publisher, LinkedIn strategist for business growth, NHS professional, and convenor of Thrive Summit.",
-      "Thrive brings together her commitment to knowledge, connection and creating spaces for people to grow.",
+      Aanu Clement David-Olawade is a LinkedIn and personal brand strategist on a mission to help business owners get booked out with clients, even in their quiet seasons.",
+      "As founder of PenPixel, a personal branding agency for business owners, she offers done-for-you LinkedIn profile optimisation and management, social media management, ghostwriting and global book publishing.",
+      "Her results speak for themselves: she recently helped a local business owner who had never won a client online land their first 5 high-ticket clients through LinkedIn within a single month.",
+      "She has also helped publish more than 100 books worldwide and built a LinkedIn community of over 40,000 followers, living proof of the strategies she teaches.",
+      "Alongside her business, Aanu is a registered nurse, a professional nurse advocate, and an active researcher with a master's in international public health.",
+      "She knows firsthand what it means to build a brand while holding down a demanding career, and at Thrive Summit, she shares exactly how you can win on LinkedIn, too.",
     ],
   },
   {
