@@ -9,13 +9,13 @@ import folaPortrait from "@/assets/thrive/speakers-2026/fola-kongi.webp.asset.js
 import sholzPortrait from "@/assets/thrive/speakers-2026/solafunmi-sholz-laelle.webp.asset.json";
 
 export const SPEAKERS_2026 = [
-  {
+    {
     id: "aanuoluwapo-clement-david-olawade",
     name: "Aanu Clement David-Olawade",
     role: "Host and convenor of Thrive Summit UK 2026",
     image: aanuoluwapoPortrait.url,
     bio: [
-      Aanu Clement David-Olawade is a LinkedIn and personal brand strategist on a mission to help business owners get booked out with clients, even in their quiet seasons.",
+      "Aanu Clement David-Olawade is a LinkedIn and personal brand strategist on a mission to help business owners get booked out with clients, even in their quiet seasons.",
       "As founder of PenPixel, a personal branding agency for business owners, she offers done-for-you LinkedIn profile optimisation and management, social media management, ghostwriting and global book publishing.",
       "Her results speak for themselves: she recently helped a local business owner who had never won a client online land their first 5 high-ticket clients through LinkedIn within a single month.",
       "She has also helped publish more than 100 books worldwide and built a LinkedIn community of over 40,000 followers, living proof of the strategies she teaches.",
