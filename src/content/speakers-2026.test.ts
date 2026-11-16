@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { SPEAKERS_2026 } from "./speakers-2026";
 
 describe("2026 speaker order", () => {
-  it("features Aanu first and lists the other eight speakers in two rows of four", () => {
+  it("features Aanu first and lists the other nine speakers in three rows of three", () => {
     expect(SPEAKERS_2026.map((speaker) => speaker.name)).toEqual([
       "Aanuoluwapo Clement David-Olawade",
       "Rukayat Alabi",
@@ -13,8 +13,9 @@ describe("2026 speaker order", () => {
       "Steve Tempest",
       "Fola Kongi",
       "Solafunmi Sholz Laelle",
+      "Pritesh Ganatra",
     ]);
-    expect(SPEAKERS_2026.length - 1).toBe(8);
+    expect(SPEAKERS_2026.length - 1).toBe(9);
   });
 
   it("places the host before the other listed speakers", () => {

@@ -122,4 +122,14 @@ export const SPEAKERS_2026 = [
       "When she's not investing, Sholz works at the nexus of tech, media, and entertainment, leveraging her diverse expertise to inspire and educate others. Her passion for financial literacy and wealth creation has made her a trusted figure in the personal finance community, guiding countless individuals toward achieving their financial goals.",
     ],
   },
+  {
+    id: "pritesh-ganatra",
+    name: "Pritesh Ganatra",
+    role: "Founder, British Technology Solutions (UK) Limited",
+    image: "/speakers/pritesh-ganatra.webp",
+    bio: [
+      "Pritesh has over 36 years in Sales within the consumer electronics and business technology sector. Initially working for Dixons Stores Group in the early 1990s, selling the first business PCs in 1992, he progressed to work for British Telecommunications PLC from 1995 to 2003. There he worked in Technical Sales, Regulatory Compliance and even re-trained as a BT Engineer, working on installing and commissioning the first Broadband Services in the UK in 2000. In 2003, he set up his first private venture, Business Phone Systems UK. Merging with dbfb in 2006, he was first Sales Manager and later a Director (and Technical Director) from 2008 to 2018. The company, originally only in the Mobile Phone business, was transformed into a full-service technology company, with turnover increasing organically from £1m to £4.5m within that time.",
+      "In September 2018 (after exiting dbfb in May 2018), Pritesh formed 1st British Technology Solutions (UK) Limited, known as BTS (UK). Within 3 years, the company had a turnover of over £150K, which Pritesh grew single handedly, with the aid of continuous referrals from the vast business network he has formed relationships with over a 20-year period. Today, BTS (UK) operates alongside a sister company, Indy Ware Limited trading as Indy IT. This brings together expertise in Cyber Security, Cyber Essentials and IT related products and services as well as the Telecommunications skills of Pritesh, who is also a 'Fellow' of The Institute of Telecommunications Professionals. The combined turnover of the group is circa £500K and growing.",
+    ],
+  },
 ] as const;
